@@ -47,8 +47,6 @@
 
 - (IBAction)authorizeClicked:(UIButton *)sender {
 //    login: username       pass: password
-    [self.passwordTF resignFirstResponder];
-    [self.loginTF resignFirstResponder];
 
     if ([self.loginTF.text isEqualToString:@"username"] && [self.passwordTF.text isEqualToString:@"password"]) {
         self.loginTF.layer.borderColor = [UIColor colorNamed:@"green"].CGColor;
@@ -67,11 +65,15 @@
     }
        
     if ([self.loginTF.text isEqualToString:@"username"] && ![self.passwordTF.text isEqualToString:@"password"]) {
+        self.loginTF.layer.borderColor = [UIColor colorNamed:@"green"].CGColor;
+        [self.loginTF resignFirstResponder];
         [self textFieldDidBeginEditing:self.passwordTF];
         self.passwordTF.layer.borderColor = [UIColor colorNamed:@"red"].CGColor;
     }
     
     if (![self.loginTF.text isEqualToString:@"username"] && [self.passwordTF.text isEqualToString:@"password"]) {
+        self.passwordTF.layer.borderColor = [UIColor colorNamed:@"green"].CGColor;
+        [self.passwordTF resignFirstResponder];
         [self textFieldDidBeginEditing:self.loginTF];
         self.loginTF.layer.borderColor = [UIColor colorNamed:@"red"].CGColor;
     }

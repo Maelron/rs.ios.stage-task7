@@ -44,7 +44,7 @@
                         <constraint firstAttribute="height" constant="34" id="SkE-OT-Goi"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="H7N-SR-sc3"/>
                     </connections>
@@ -56,7 +56,7 @@
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="303" id="WfY-qm-uLq"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                    <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="5ZQ-bt-RvX"/>
                     </connections>
