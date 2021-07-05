@@ -34,15 +34,17 @@
                         <constraint firstAttribute="height" constant="43" id="yWI-zd-KKi"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                    <nil key="textColor"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PoG-Wg-PG7">
                     <rect key="frame" x="36" y="203" width="303" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="303" id="E0J-Oy-jO2"/>
                         <constraint firstAttribute="height" constant="34" id="SkE-OT-Goi"/>
                     </constraints>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                     <connections>
@@ -51,10 +53,12 @@
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S10-Uv-Fqr">
                     <rect key="frame" x="36" y="267" width="303" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="34" id="Deh-GY-DHz"/>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="303" id="WfY-qm-uLq"/>
                     </constraints>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
                     <connections>
@@ -114,7 +118,7 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="Dmd-39-TYz"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                            <nil key="textColor"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnz-ig-dpH" customClass="SecureButton">
