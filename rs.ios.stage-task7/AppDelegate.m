@@ -20,7 +20,7 @@
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     window.backgroundColor = [UIColor whiteColor];
     
-    AuthorizationVC *rootVC = [[AuthorizationVC alloc] init];
+    AuthorizationVC *rootVC = [[AuthorizationVC alloc] initWithNibName:@"AuthorizationVC" bundle:nil];
     window.rootViewController = rootVC;
     
     self.window = window;

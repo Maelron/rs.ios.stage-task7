@@ -13,6 +13,8 @@
 		FAEFC13F2690D80700EFD2F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC13E2690D80700EFD2F2 /* main.m */; };
 		FAEFC1482690DC7900EFD2F2 /* AuthorizationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC1462690DC7900EFD2F2 /* AuthorizationVC.m */; };
 		FAEFC1492690DC7900EFD2F2 /* AuthorizationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC1472690DC7900EFD2F2 /* AuthorizationVC.xib */; };
+		FAEFC1732691155F00EFD2F2 /* AuthorizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC1722691155F00EFD2F2 /* AuthorizeButton.m */; };
+		FAEFC176269214FB00EFD2F2 /* SecureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC175269214FB00EFD2F2 /* SecureButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FAEFC1452690DC7900EFD2F2 /* AuthorizationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationVC.h; sourceTree = "<group>"; };
 		FAEFC1462690DC7900EFD2F2 /* AuthorizationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationVC.m; sourceTree = "<group>"; };
 		FAEFC1472690DC7900EFD2F2 /* AuthorizationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorizationVC.xib; sourceTree = "<group>"; };
+		FAEFC1712691155F00EFD2F2 /* AuthorizeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizeButton.h; sourceTree = "<group>"; };
+		FAEFC1722691155F00EFD2F2 /* AuthorizeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizeButton.m; sourceTree = "<group>"; };
+		FAEFC174269214FB00EFD2F2 /* SecureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureButton.h; sourceTree = "<group>"; };
+		FAEFC175269214FB00EFD2F2 /* SecureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				FAEFC1452690DC7900EFD2F2 /* AuthorizationVC.h */,
 				FAEFC1462690DC7900EFD2F2 /* AuthorizationVC.m */,
 				FAEFC1472690DC7900EFD2F2 /* AuthorizationVC.xib */,
+				FAEFC1712691155F00EFD2F2 /* AuthorizeButton.h */,
+				FAEFC1722691155F00EFD2F2 /* AuthorizeButton.m */,
+				FAEFC174269214FB00EFD2F2 /* SecureButton.h */,
+				FAEFC175269214FB00EFD2F2 /* SecureButton.m */,
 				FAEFC1382690D80700EFD2F2 /* Assets.xcassets */,
 				FAEFC13A2690D80700EFD2F2 /* LaunchScreen.storyboard */,
 				FAEFC13D2690D80700EFD2F2 /* Info.plist */,
@@ -140,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEFC176269214FB00EFD2F2 /* SecureButton.m in Sources */,
 				FAEFC12E2690D80600EFD2F2 /* AppDelegate.m in Sources */,
 				FAEFC13F2690D80700EFD2F2 /* main.m in Sources */,
 				FAEFC1482690DC7900EFD2F2 /* AuthorizationVC.m in Sources */,
+				FAEFC1732691155F00EFD2F2 /* AuthorizeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
