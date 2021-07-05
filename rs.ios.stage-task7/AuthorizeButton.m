@@ -17,7 +17,10 @@
     
     [self setImage:[UIImage imageNamed:@"troll"] forState:UIControlStateNormal];
     [self setImage:[UIImage imageNamed:@"troll fill"] forState:UIControlStateHighlighted];
-    [self setImageEdgeInsets:UIEdgeInsetsMake(10.0, 20.0, 10.0, 5.0)];
+    
+    [self.imageView setContentMode:UIViewContentModeScaleAspectFit];
+    
+    [self setImageEdgeInsets:UIEdgeInsetsMake(10.0, 20.0, 10.0, 15.0)];
     [self setTitleEdgeInsets:UIEdgeInsetsMake(10.0, 30.0, 10.0, 20.0)];
     self.titleLabel.minimumScaleFactor = 0.5;
     self.titleLabel.adjustsFontSizeToFitWidth = YES;

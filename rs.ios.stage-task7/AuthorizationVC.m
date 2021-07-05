@@ -178,7 +178,6 @@
 }
 
 - (void)dissmissKeyboad {
-    NSLog(@"end editing");
     [self.view endEditing:YES];
 }
 

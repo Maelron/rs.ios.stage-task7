@@ -46,7 +46,7 @@
                     </constraints>
                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="H7N-SR-sc3"/>
                     </connections>
@@ -72,9 +72,9 @@
                         <constraint firstAttribute="height" constant="42" id="v6a-JG-xiP"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                    <color key="tintColor" name="Little Boy Blue"/>
+                    <color key="tintColor" name="blue"/>
                     <state key="normal" title="Authorize">
-                        <color key="titleColor" name="Little Boy Blue"/>
+                        <color key="titleColor" name="blue"/>
                     </state>
                     <connections>
                         <action selector="authorizeClicked:" destination="-1" eventType="touchUpInside" id="ULH-bF-m1s"/>
@@ -91,7 +91,7 @@
                             </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                             <state key="normal" title="2">
-                                <color key="titleColor" name="Little Boy Blue"/>
+                                <color key="titleColor" name="blue"/>
                             </state>
                             <connections>
                                 <action selector="secureButtonClicked:" destination="-1" eventType="touchUpInside" id="lzV-cJ-QgT"/>
@@ -105,7 +105,7 @@
                             </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                             <state key="normal" title="3">
-                                <color key="titleColor" name="Little Boy Blue"/>
+                                <color key="titleColor" name="blue"/>
                             </state>
                             <connections>
                                 <action selector="secureButtonClicked:" destination="-1" eventType="touchUpInside" id="8hq-Vb-KSK"/>
@@ -129,7 +129,7 @@
                             </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                             <state key="normal" title="1">
-                                <color key="titleColor" name="Little Boy Blue"/>
+                                <color key="titleColor" name="blue"/>
                             </state>
                             <connections>
                                 <action selector="secureButtonClicked:" destination="-1" eventType="touchUpInside" id="Ui1-uq-Qrp"/>
@@ -170,7 +170,7 @@
         </view>
     </objects>
     <resources>
-        <namedColor name="Little Boy Blue">
+        <namedColor name="blue">
             <color red="0.50196078431372548" green="0.64313725490196083" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
